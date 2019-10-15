@@ -1,0 +1,10 @@
+.wsite-section-content{
+	position:relative;
+	z-index:6;
+}
+
+@media (max-width:767px){
+	.wsite-section-elements {
+		overflow: unset !important;
+	}
+}
