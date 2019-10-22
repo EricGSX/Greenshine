@@ -351,7 +351,7 @@
 /* 模态框显示状态 */
 .modalbox:target {
     /* 不透明为 0.8 */
-    opacity: 0.9;
+    opacity: 1;
     /* 与 pointer-events 属性未指定时的表现效果相同 */
     /* 请参阅：https://developer.mozilla.org/zh-CN/docs/Web/CSS/pointer-events */
     pointer-events: auto;
@@ -372,11 +372,12 @@
                         <div class="modalbox-dialog">
                             <a href="#close" title="Close" class="modalbox-close-btn">X</a>
 <!-- 弹出框询盘 -->
-          <!-- 询盘 -->
+
+                  <!-- 询盘 -->
           <div class="wsite-section-wrap">
-            <div class="wsite-section wsite-body-section wsite-background-253">
+            <div class="wsite-body-section wsite-background-253">
               <div class="wsite-section-content">
-                <div class="container">
+                <div class="container" style="padding:60px 40px;">
                   <div class="wsite-section-elements">
                     <div>
                       <style>.eric-form{border-top:0px solid #fff!important;border-left:0px solid #fff!important;border-right:0px solid #fff!important;border-radius:0px!important;border-bottom:1px solid #dcdcdc!important;line-height: 31px;}
@@ -390,7 +391,7 @@
                       .eric-form-col12{width:100%;float:left;padding-left: 10px;}
                     </style>
                       <form enctype="multipart/form-data" action="#">
-                            <h2 class="wsite-content-title" style="text-align:center;color:#8cc63e;">PROFESSIONAL CONSULTATION</h2>
+                            <h2 class="wsite-content-title" style="text-align:center;">PROFESSIONAL CONSULTATION</h2>
                             <!--  -->
                             <div style="text-align: center;color: #7a7a7a;">
                               <div><span style="font-size: 16px;">Please fill in your project details and one of our lighting experts will get back to you within 24 hours.</span></div>
@@ -402,29 +403,37 @@
                               <span class="form-required">*</span>Indicates required field</label>
                             <div>
                                 <div class="eric-form-left">
-                                  <div style="float: left;">Name</div>
+                                  <div style="float: left;">Name<span class="form-required">*</span></div>
                                   <div><input type="text" class="eric-form" style="width:98%;"></div>
                                 </div>
                                 <div  class="eric-form-left">
-                                  <div style="float: left;">Email</div>
+                                  <div style="float: left;">Email<span class="form-required">*</span></div>
                                   <div><input type="text" class="eric-form" style="width:98%;"></div>
                                 </div>
                                 <div class="eric-form-left">
-                                  <div style="float: left;">Phone</div>
+                                  <div style="float: left;">Phone<span class="form-required">*</span></div>
                                   <div><input type="text" class="eric-form" style="width:98%;"></div>
                                 </div>
-                                <div style="clear: both;"></div> 
-                                <div  class="eric-mobile-css"></div>                               
+                                <div style="clear: both;"></div>
+                                <div  class="eric-mobile-css"></div>                         
                                 <div class="eric-form-left">
-                                  <div style="float: left;">Application</div>
-                                  <div><input type="text" class="eric-form" style="width:98%;"></div>
+                                  <div style="float: left;">Application<span class="form-required">*</span></div>
+                                  <div>
+                                    <select name="application" class="eric-form" style="width:98%;height: 31px;">
+                                        <option value="PATHWAY &amp; PARK LIGHTING">PATHWAY &amp; PARK LIGHTING</option>
+                                        <option value="STREET LIGHTING">STREET LIGHTING</option>
+                                        <option value="PARKING LOT LIGHTING">PARKING LOT LIGHTING</option>
+                                        <option value="PERIMETER &amp; SECURITY LIGHTING">PERIMETER &amp; SECURITY LIGHTING</option>
+                                        <option value="SIGNAGE LIGHTING">SIGNAGE LIGHTING</option>
+                                      </select>
+                                  </div>
                                 </div>
                                 <div  class="eric-form-left">
-                                  <div style="float: left;">Installation  city</div>
+                                  <div style="float: left;">Installation  city<span class="form-required">*</span></div>
                                   <div><input type="text" class="eric-form" style="width:98%;"></div>
                                 </div>                                
                                 <div  class="eric-form-left">
-                                  <div style="float: left;">Installation  state</div>
+                                  <div style="float: left;">Installation  state<span class="form-required">*</span></div>
                                   <div><input type="text" class="eric-form" style="width:98%;"></div>
                                 </div>
                                 <div style="clear: both;"></div> 
@@ -438,7 +447,6 @@
                                 <div style="text-align: center;">
                                    <span type="submit"  style="background-color: rgb(224, 130, 0);color: white;padding: 14px 30px;">GET A QUOTE</span>
                                 </div>
-                                <div class="wsite-spacer" style="height:30px;"></div>
                             </div>
                       </form>
 
@@ -1035,6 +1043,13 @@
           </div>
         </li>
       </ul>
+                    <!-- Mobile 询盘 -->
+                        <!-- Get a quore -->
+                        <div style="height: 10px;"></div>
+                <div style="text-align: center;">
+                  <a style="background-color: #e08200 !important;color: #ffffff;padding:14px 30px;">Get A Quote</a>
+                </div>
+        <!-- Mobile 询盘 -->
     </div>
     <script type="text/javascript" src="js/plugins.js?1568606749"></script>
     <script type="text/javascript" src="js/custom.js?1568606749"></script>
