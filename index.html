@@ -370,7 +370,7 @@
     </style>
                     <div id="my-modal-box" class="modalbox">
                         <div class="modalbox-dialog">
-                            <a href="#close" title="Close" class="modalbox-close-btn">X</a>
+                            <a href="#close" title="Close" class="modalbox-close-btn" style="float:right;">X</a>
 <!-- 弹出框询盘 -->
           <!-- 询盘 -->
           <div class="wsite-section-wrap">
@@ -424,6 +424,8 @@
                                         <option value="PARKING LOT LIGHTING">PARKING LOT LIGHTING</option>
                                         <option value="PERIMETER &amp; SECURITY LIGHTING">PERIMETER &amp; SECURITY LIGHTING</option>
                                         <option value="SIGNAGE LIGHTING">SIGNAGE LIGHTING</option>
+                                        <option value="Mailbox, Canopy, & Bus Stop Lighting">SIGNAGE LIGHTING</option>
+                                        <option value="Other">SIGNAGE LIGHTING</option>
                                       </select>
                                   </div>
                                 </div>
@@ -431,9 +433,71 @@
                                   <div style="float: left;">Installation  city<span class="form-required">*</span></div>
                                   <div><input type="text" class="eric-form" style="width:98%;"></div>
                                 </div>                                
-                                <div  class="eric-form-left">
-                                  <div style="float: left;">Installation  state<span class="form-required">*</span></div>
-                                  <div><input type="text" class="eric-form" style="width:98%;"></div>
+                                <div class="eric-form-left">
+                                  <div style="float: left;">Installation  State<span class="form-required">*</span></div>
+                                  <div>
+                                    <select name="application" class="eric-form" style="width:98%;height: 31px;">
+                                        <option value="Alabama">Alabama</option>
+                                        <option value="Alaska">Alaska</option>
+                                        <option value="American Samoa">American Samoa</option>
+                                        <option value="Arizona">Arizona</option>
+                                        <option value="Arkansas">Arkansas</option>
+                                        <option value="Armed Forces Americas">Armed Forces Americas</option>
+                                        <option value="Armed Forces Europe">Armed Forces Europe</option>
+                                        <option value="Armed Forces Pacific">Armed Forces Pacific</option>
+                                        <option value="California">California</option>
+                                        <option value="Colorado">Colorado</option>
+                                        <option value="Connecticut">Connecticut</option>
+                                        <option value="Delaware">Delaware</option>
+                                        <option value="District of Columbia">District of Columbia</option>
+                                        <option value="Florida">Florida</option>
+                                        <option value="Georgia">Georgia</option>
+                                        <option value="Guam">Guam</option>
+                                        <option value="Hawaii">Hawaii</option>
+                                        <option value="Idaho">Idaho</option>
+                                        <option value="Illinois">Illinois</option>
+                                        <option value="Indiana">Indiana</option>
+                                        <option value="Iowa">Iowa</option>
+                                        <option value="Kansas">Kansas</option>
+                                        <option value="Kentucky">Kentucky</option>
+                                        <option value="Louisiana">Louisiana</option>
+                                        <option value="Maine">Maine</option>
+                                        <option value="Maryland">Maryland</option>
+                                        <option value="Massachusetts">Massachusetts</option>
+                                        <option value="Michigan">Michigan</option>
+                                        <option value="Minnesota">Minnesota</option>
+                                        <option value="Mississippi">Mississippi</option>
+                                        <option value="Missouri">Missouri</option>
+                                        <option value="Montana">Montana</option>
+                                        <option value="Nebraska">Nebraska</option>
+                                        <option value="Nevada">Nevada</option>
+                                        <option value="New Hampshire">New Hampshire</option>
+                                        <option value="New Jersey">New Jersey</option>
+                                        <option value="New Mexico">New Mexico</option>
+                                        <option value="New York">New York</option>
+                                        <option value="North Carolina">North Carolina</option>
+                                        <option value="North Dakota">North Dakota</option>
+                                        <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                                        <option value="Ohio">Ohio</option>
+                                        <option value="Oklahoma">Oklahoma</option>
+                                        <option value="Oregon">Oregon</option>
+                                        <option value="Palau">Palau</option>
+                                        <option value="Pennsylvania">Pennsylvania</option>
+                                        <option value="Puerto Rico">Puerto Rico</option>
+                                        <option value="Rhode Island">Rhode Island</option>
+                                        <option value="South Carolina">South Carolina</option>
+                                        <option value="South Dakota">South Dakota</option>
+                                        <option value="Tennessee">Tennessee</option>
+                                        <option value="Texas">Texas</option>
+                                        <option value="U.S. Virgin Islands">U.S. Virgin Islands</option>
+                                        <option value="Utah">Utah</option><option value="Vermont">Vermont</option>
+                                        <option value="Virginia">Virginia</option>
+                                        <option value="Washington">Washington</option>
+                                        <option value="West Virginia">West Virginia</option>
+                                        <option value="Wisconsin">Wisconsin</option>
+                                        <option value="Wyoming">Wyoming</option>
+                                      </select>
+                                  </div>
                                 </div>
                                 <div style="clear: both;"></div> 
                                 <div class="eric-mobile-css"></div>   
@@ -464,12 +528,20 @@
               </ul>
             </div>
             <a class="hamburger" aria-label="Menu" href="#">
-              <span></span>
+              <span class="eric-mobile-span"></span>
             </a>
           </div>
         </div>
       </div>
       <!-- Oceania GreenShine Web Header Menu -->
+      <style type="text/css">
+        @media only screen and (max-width: 900px) {
+          .banner-wrap{display: none!important;}
+          .eric-mobile-span{background-color: black!important;}
+          .eric-mobile-span::before{background-color: black!important;}
+          .eric-mobile-span::after{background-color: black!important;}
+        }
+      </style>
       <div class="banner-wrap">
         <div class="wsite-elements wsite-not-footer wsite-header-elements">
           <div class="wsite-section-wrap">
@@ -17459,6 +17531,8 @@
                                         <option value="PARKING LOT LIGHTING">PARKING LOT LIGHTING</option>
                                         <option value="PERIMETER &amp; SECURITY LIGHTING">PERIMETER &amp; SECURITY LIGHTING</option>
                                         <option value="SIGNAGE LIGHTING">SIGNAGE LIGHTING</option>
+                                        <option value="Mailbox, Canopy, & Bus Stop Lighting">SIGNAGE LIGHTING</option>
+                                        <option value="Other">SIGNAGE LIGHTING</option>
                                       </select>
                                   </div>
                                 </div>
@@ -17466,9 +17540,71 @@
                                   <div style="float: left;">Installation  city<span class="form-required">*</span></div>
                                   <div><input type="text" class="eric-form" style="width:98%;"></div>
                                 </div>                                
-                                <div  class="eric-form-left">
-                                  <div style="float: left;">Installation  state<span class="form-required">*</span></div>
-                                  <div><input type="text" class="eric-form" style="width:98%;"></div>
+                                <div class="eric-form-left">
+                                  <div style="float: left;">Installation  State<span class="form-required">*</span></div>
+                                  <div>
+                                    <select name="application" class="eric-form" style="width:98%;height: 31px;">
+                                        <option value="Alabama">Alabama</option>
+                                        <option value="Alaska">Alaska</option>
+                                        <option value="American Samoa">American Samoa</option>
+                                        <option value="Arizona">Arizona</option>
+                                        <option value="Arkansas">Arkansas</option>
+                                        <option value="Armed Forces Americas">Armed Forces Americas</option>
+                                        <option value="Armed Forces Europe">Armed Forces Europe</option>
+                                        <option value="Armed Forces Pacific">Armed Forces Pacific</option>
+                                        <option value="California">California</option>
+                                        <option value="Colorado">Colorado</option>
+                                        <option value="Connecticut">Connecticut</option>
+                                        <option value="Delaware">Delaware</option>
+                                        <option value="District of Columbia">District of Columbia</option>
+                                        <option value="Florida">Florida</option>
+                                        <option value="Georgia">Georgia</option>
+                                        <option value="Guam">Guam</option>
+                                        <option value="Hawaii">Hawaii</option>
+                                        <option value="Idaho">Idaho</option>
+                                        <option value="Illinois">Illinois</option>
+                                        <option value="Indiana">Indiana</option>
+                                        <option value="Iowa">Iowa</option>
+                                        <option value="Kansas">Kansas</option>
+                                        <option value="Kentucky">Kentucky</option>
+                                        <option value="Louisiana">Louisiana</option>
+                                        <option value="Maine">Maine</option>
+                                        <option value="Maryland">Maryland</option>
+                                        <option value="Massachusetts">Massachusetts</option>
+                                        <option value="Michigan">Michigan</option>
+                                        <option value="Minnesota">Minnesota</option>
+                                        <option value="Mississippi">Mississippi</option>
+                                        <option value="Missouri">Missouri</option>
+                                        <option value="Montana">Montana</option>
+                                        <option value="Nebraska">Nebraska</option>
+                                        <option value="Nevada">Nevada</option>
+                                        <option value="New Hampshire">New Hampshire</option>
+                                        <option value="New Jersey">New Jersey</option>
+                                        <option value="New Mexico">New Mexico</option>
+                                        <option value="New York">New York</option>
+                                        <option value="North Carolina">North Carolina</option>
+                                        <option value="North Dakota">North Dakota</option>
+                                        <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                                        <option value="Ohio">Ohio</option>
+                                        <option value="Oklahoma">Oklahoma</option>
+                                        <option value="Oregon">Oregon</option>
+                                        <option value="Palau">Palau</option>
+                                        <option value="Pennsylvania">Pennsylvania</option>
+                                        <option value="Puerto Rico">Puerto Rico</option>
+                                        <option value="Rhode Island">Rhode Island</option>
+                                        <option value="South Carolina">South Carolina</option>
+                                        <option value="South Dakota">South Dakota</option>
+                                        <option value="Tennessee">Tennessee</option>
+                                        <option value="Texas">Texas</option>
+                                        <option value="U.S. Virgin Islands">U.S. Virgin Islands</option>
+                                        <option value="Utah">Utah</option><option value="Vermont">Vermont</option>
+                                        <option value="Virginia">Virginia</option>
+                                        <option value="Washington">Washington</option>
+                                        <option value="West Virginia">West Virginia</option>
+                                        <option value="Wisconsin">Wisconsin</option>
+                                        <option value="Wyoming">Wyoming</option>
+                                      </select>
+                                  </div>
                                 </div>
                                 <div style="clear: both;"></div> 
                                 <div class="eric-mobile-css"></div>   
@@ -17491,16 +17627,55 @@
             </div>
           </div>
           <!-- 询盘 -->
-                    <div class="wsite-section-wrap">
-            <div class="wsite-body-section wsite-background-207" style="height: 20%;">
-              <div class="wsite-section-content" style="width: 100%;">
-                <div class="container" style="padding: 60px 40px 1px 40px;">
+         <!-- 询盘订阅 -->
+          <div class="wsite-section-wrap">
+            <div class="wsite-body-section wsite-background-253">
+              <div class="wsite-section-content">
+                <div class="container" style="padding: 1px 40px 60px 40px;">
                   <div class="wsite-section-elements">
-                    <h2 class="wsite-content-title" style="text-align:center;">SUBSCRIBE TO OUR NEWSLETTER</h2></div>
+                    <div>
+                      <style>.eric-form-blog{border-top:0px solid #fff!important;border-left:0px solid #fff!important;border-right:0px solid #fff!important;border-radius:0px!important;border-bottom:1px solid #dcdcdc!important;line-height: 31px;}
+                      .eric-form-left-blog{width:49%;float:left;padding-left: 10px;}
+                      .eric-mobile-css-blog{width:100%;height:20px;}
+                      @media (max-width: 500px) {
+                        .eric-form-left-blog{width:100%;float:left;padding-left: 10px;}
+                        .eric-mobile-css-blog{width:100%;height:1px;}
+                        .eric-form-blog{line-height: 35px;}
+                      }
+                      .eric-form-col12-blog{width:100%;float:left;padding-left: 10px;}
+                    </style>
+                      <form enctype="multipart/form-data" action="#">
+                            <h2 class="wsite-content-title" style="text-align:center;">SUBSCRIBE TO OUR NEWSLETTER</h2>
+                            <!--  -->
+
+                            <div class="wsite-spacer" style="height:20px;"></div>
+                            <!--  -->
+                            <label class="wsite-form-label wsite-form-fields-required-label">
+                              <span class="form-required">*</span>Indicates required field</label>
+                            <div>
+                                <div class="eric-form-left-blog">
+                                  <div style="float: left;">Name <span class="form-required">*</span></div>
+                                  <div><input type="text" class="eric-form-blog" style="width:98%;"></div>
+                                </div>
+                                <div  class="eric-form-left-blog">
+                                  <div style="float: left;">Email Address<span class="form-required">*</span></div>
+                                  <div><input type="text" class="eric-form-blog" style="width:98%;"></div>
+                                </div>
+                                <div style="clear: both;"></div> 
+                                <div class="wsite-spacer" style="height:30px;"></div>
+                                <div style="text-align: center;">
+                                   <span type="submit"  style="background-color: rgb(224, 130, 0);color: white;padding: 14px 30px;">SUBSCRIBE</span>
+                                </div>
+                            </div>
+                      </form>
+
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- 询盘订阅 -->
           <!-- <p>白色底部</p> -->
         </div>
       </div>
@@ -17536,6 +17711,7 @@
       <li><a href="#">FAQ</a></li>
       <li><a href="#">CONTACT US</a></li>
       <li><a href="#">BLOG</a></li>
+      <li><a href="#">SITEMAP</a></li>
     </ul>
     <div style="height: 10px;"></div>
     <div class='eric-footer-third'>
@@ -17684,9 +17860,9 @@
       </ul>
               <!-- Mobile 询盘 -->
                         <!-- Get a quore -->
-                        <div style="height: 10px;"></div>
+                        <div style="height: 30px;"></div>
                 <div style="text-align: center;">
-                  <a style="background-color: #e08200 !important;color: #ffffff;padding:14px 30px;">Get A Quote</a>
+                  <a style="background-color: #e08200 !important;color: #ffffff;padding:14px 30px;">GET A QUOTE</a>
                 </div>
         <!-- Mobile 询盘 -->
     </div>
